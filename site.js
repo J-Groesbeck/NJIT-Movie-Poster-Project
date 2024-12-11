@@ -41,6 +41,20 @@ const vue_app = Vue.createApp({
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  const months = [
+                        "January", "February", "March", "April", "May", "June",
+                        "July", "August", "September", "October", "November", "December"
+                  ];
+                  const [year, month, day] = dateArray;
+                  const monthText = months[month - 1];
+                  return `${monthText} ${day}, ${year}`;
+            },
+            timeText(minutes) {
+                  const hours = Math.trunc(minutes / 60)
+                  const mins = minutes % 60
+                  return `${hours}h ${mins}m`
+            }
       }
 })
 
