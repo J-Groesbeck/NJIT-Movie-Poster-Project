@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Star Wars: Episode III - Revenge of the Sith",
+            "iscore": 7.6,
+            "rating": "PG-13",
+            "runtime": 140,
+            "released": [2005, 5, 19],
+            "country": "USA",
+            "posters": ["img/RotS.jpg", "img/RotS2.jpg", "img/RotS3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0121766/",
+            "website": "https://www.starwars.com/films/star-wars-episode-iii-revenge-of-the-sith",
+            "likes": 798,
+            "dislikes": 187,
+            "posterindex": 0
+      },
+      {
+            "title": "John Wick",
+            "iscore": 7.4,
+            "rating": "R",
+            "runtime": 101,
+            "released": [2014, 10, 24],
+            "country": "USA",
+            "posters": ["img/johnwick.jpg", "img/johnwick2.jpg", "img/johnwick3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2911666/",
+            "website": "https://johnwick.movie/",
+            "likes": 807,
+            "dislikes": 68,
+            "posterindex": 0
+      },
+      {
+            "title": "The Lord of the Rings: The Return of the King",
+            "iscore": 9.0,
+            "rating": "PG-13",
+            "runtime": 201,
+            "released": [2003, 12, 17],
+            "country": "USA",
+            "posters": ["img/LotR.jpg", "img/LotR2.jpg", "img/LotR3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0167260/",
+            "website": "https://www.warnerbros.com/movies/lord-rings-return-king",
+            "likes": 917,
+            "dislikes": 78,
+            "posterindex": 0
       }
 ]
